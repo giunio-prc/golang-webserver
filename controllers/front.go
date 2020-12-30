@@ -2,7 +2,7 @@ package controllers
 
 import "net/http"
 
-func RegistrerController() {
+func RegisterControllers() {
 	uc := newUserController()
 
 	http.Handle("/users", *uc)
